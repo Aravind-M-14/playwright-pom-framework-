@@ -40,4 +40,7 @@ export class LoginPage {
         await this.enterPassword(password)
         await this.clickLogin()
     }
+    async logout() {
+    console.log("Logout functionality added");
+}
 }
