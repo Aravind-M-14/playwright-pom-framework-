@@ -41,7 +41,7 @@ export class LoginPage {
         await this.clickLogin()
     }
     async clearLoginFields() {
-    await this.usernameInput.fill('Developer B');
+    await this.usernameInput.fill('Developer A');
     await this.passwordInput.fill('');
 }
 }
